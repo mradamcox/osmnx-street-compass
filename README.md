@@ -29,9 +29,13 @@ will produce
 where `lacities.json` looks like
 
     {
-      "places":{
-        "Alexandria":"Alexandria, LA, USA",
-        "Baton Rouge":"Baton Rouge, LA, USA"
+      "places": {
+        "Alexandria": "Alexandria, LA, USA",
+        "Baton Rouge": "Baton Rouge, LA, USA",
+        "Lafayette": "Lafayette, LA, USA",
+        "Natchitoches": "Natchitoches, LA, USA",
+        "New Orleans": "New Orleans, LA, USA",
+        "Shreveport": "Shreveport, LA, USA"
       }
     }
 
