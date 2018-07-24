@@ -14,15 +14,15 @@ You'll need `matplotlib`, `numpy`, `pandas`, `geopandas`, and `osmnx` in your Py
     
 will produce
 
-[]
+<img src="https://raw.githubusercontent.com/mradamcox/osmnx-street-compass/master/example/some_new_orleans_neighborhoods.png" width="400" />
 
-where the `-l/--label_field` argument is the name of the shapefile field that is used to label the graph of each feature and `-t/--title` is the super title of the final image and the name of the file. One graph is made for every feature in the shapefile.
+where `-l/--label_field` is the name of the shapefile field that is used to label the graph of each feature and `-t/--title` is the super title of the final image and the name of the file. One graph is made for every feature in the shapefile.
 
     python generate_street_orientations.py example/lacities.json -t "Some Louisiana Cities"
 
 will produce
 
-[]
+<img src="https://raw.githubusercontent.com/mradamcox/osmnx-street-compass/master/example/some_louisiana_cities.png" width="400" />
 
 #### other options
 
